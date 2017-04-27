@@ -15,7 +15,7 @@ const commerce = new GoCommerce({
 });
 
 commerce.addToCart({
-	path: '/producs/book-1/',
+	path: '/products/book-1/',
 	quantity: 2,
 	meta: {
     // You can add anything in metadata and use it in your checkout ui
